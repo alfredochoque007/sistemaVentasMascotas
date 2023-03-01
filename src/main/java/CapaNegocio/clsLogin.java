@@ -1,11 +1,11 @@
 package CapaNegocio;
 
-import CapaPresentacion.Menu;
+import CapaPresentacion.frmMenu;
 
 public class clsLogin {
 
     public void ingresar() {
-        Menu principal = new Menu();
+        frmMenu principal = new frmMenu();
 
         principal.setVisible(true);
 
