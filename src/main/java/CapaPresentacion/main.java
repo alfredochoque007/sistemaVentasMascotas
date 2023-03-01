@@ -1,13 +1,13 @@
 
 package CapaPresentacion;
 
-import CapaPresentacion.Principal;
+import CapaPresentacion.Menu;
 
 
 public class main {
        public static void main(String[] args) {
         
-           Principal ventana = new Principal();
+           Login ventana = new Login();
            ventana.setVisible(true);
            
     }
